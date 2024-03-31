@@ -8,12 +8,13 @@
     <title>Vinnie G</title>
     <meta charset="utf-8">
     <meta name="author" conten="Vinnie Giraldo">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
     <style>
       head {
         color: #2b2c34;
       }
-      
+
       body {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -25,18 +26,21 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        max-width: 1120px;
+        max-width: 800px;
         flex-grow: 1;
       }
-      <!-- use color from https://www.happyhues.co/palettes/6 -->
+
+      /* use color from https://www.happyhues.co/palettes/6 */
 
       .banner {
         display: flex;
-        justify-content: center;
+        justify-content: center; /* use this line to center your image in the webpage */
+        align-items: center;
       }
 
       .name {
         color: #2b2c34;
+        font-weight: bold;
         display: flex;
         justify-content: center;
       }
@@ -52,6 +56,7 @@
         background-color: #d1d1e9;
         display: flex;
         align-items: center;
+        padding: 8px;
       }
 
       .link a {
@@ -86,7 +91,6 @@
   <body>
 
     <div class="items">
-
       <div class="banner">
         <img src="/thumbnails/linkedin-profile.jpg" alt="Vinnie Giraldo headshot" class="banner-image">
       </div>
@@ -105,6 +109,7 @@
         </a>
 
         <a href="https://www.instagram.com/vinicius.giraldo/" target="_blank">
+          <i class="fa-brands fa-instagram" style="margin-right: 4px;"></i>
           Instagram
         </a>
 
