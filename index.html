@@ -17,8 +17,17 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
       }
 
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 1120px;
+        flex-grow: 1;
+      }
       <!-- use color from https://www.happyhues.co/palettes/6 -->
 
       .banner {
@@ -27,7 +36,7 @@
       }
 
       .name {
-        color: #fffffe;
+        color: #2b2c34;
         display: flex;
         justify-content: center;
       }
@@ -35,6 +44,8 @@
       .social-icons {
         color: #fffffe;
         text-decoration: none;
+        display: flex;
+        justify-content: space-around;
       }
 
       .link {
@@ -57,6 +68,8 @@
         border-radius: 128px;
         border-style:solid;
         border-color:antiquewhite;
+        display: flex;
+        justify-content: center;
       }
 
       .thumbnail {
@@ -66,13 +79,6 @@
         object-fit: cover;
       }
 
-      .items {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      max-width: 1120px;
-    }
-
     </style>
 
   </head>
@@ -80,7 +86,7 @@
   <body>
 
     <div class="items">
-      
+
       <div class="banner">
         <img src="/thumbnails/linkedin-profile.jpg" alt="Vinnie Giraldo headshot" class="banner-image">
       </div>
