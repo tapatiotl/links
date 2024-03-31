@@ -21,8 +21,15 @@
 
       <!-- use color from https://www.happyhues.co/palettes/6 -->
 
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
       .name {
         color: #fffffe;
+        display: flex;
+        justify-content: center;
       }
 
       .social-icons {
@@ -32,15 +39,16 @@
 
       .link {
         background-color: #d1d1e9;
+        display: flex;
+        align-items: center;
       }
 
       .link a {
         color: #001e1d;
         text-decoration: none;
+        text-align: center;
+        flex-grow: 2;
       }
-
-
-
 
       .banner-image {
         width: 128px;
@@ -61,6 +69,8 @@
       .items {
       display: flex;
       flex-direction: column;
+      gap: 30px;
+      max-width: 1120px;
     }
 
     </style>
@@ -70,6 +80,7 @@
   <body>
 
     <div class="items">
+      
       <div class="banner">
         <img src="/thumbnails/linkedin-profile.jpg" alt="Vinnie Giraldo headshot" class="banner-image">
       </div>
@@ -121,7 +132,6 @@
           Life-Saving Checklist — The New Yorker</a>
       </div>
   </div>
-
 
   </body>
 </html>
